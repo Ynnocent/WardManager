@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "commonjs",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --env-file=.env server.js",
@@ -16,6 +15,9 @@
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
+    "mongodb": "^6.18.0"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }

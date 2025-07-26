@@ -1,0 +1,45 @@
+const MongoDB = require("mongodb").MongoClient;
+const URI = process.env.DB_URI;
+const DB_NAME = process.env.DB_NAME;
+
+const initDB = async () => {
+  try {
+    const db = await MongoDB.connect(URI);
+    if (!db) {
+      throw new Error({
+        message: "Failed to connect to DB",
+        status: 500,
+      });
+    } else {
+      return {
+        db,
+        message: "Successfully connected to DB",
+        status: 200,
+      };
+    }
+  } catch (error) {
+    return error;
+  }
+};
+
+const getDB = async () => {
+  try {
+    const connection = await MongoDB.connect(URI);
+    const db = connection.db(DB_NAME);
+    if (!db) {
+      throw new Error({
+        message: `Failed to connect to ${DB_NAME}`,
+        status: 500,
+      });
+    } else {
+      return db;
+    }
+  } catch (error) {
+    return error;
+  }
+};
+
+module.exports = {
+  initDB,
+  getDB,
+};
