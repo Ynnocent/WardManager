@@ -1,5 +1,8 @@
 const mongoDB = require("../db/connect.js");
 const ObjectID = require("mongodb").ObjectId;
+const multer = require("multer");
+const storage = multer.memoryStorage();
+const upload = multer({ storage });
 
 // ====================== GET ======================
 const getMemberList = async (req, res) => {
@@ -52,11 +55,56 @@ const getMember = async (req, res) => {
   }
 };
 
+const getMembershipRecordPDF = async (req, res) => {
+  try {
+    const { id } = req.params;
+    if (!ObjectID.isValid(id)) {
+      return res.status(400).json({ message: "Invalid ID" });
+    }
+  
+    const fileId = ObjectID.createFromHexString(id);
+
+    const db = await mongoDB.getDB();
+    const pdfCollection = db.collection("Pdf");
+    const fileDoc = await pdfCollection.findOne({ _id: fileId});
+    
+    console.log(fileDoc);
+    
+    if (!fileDoc || !fileDoc.data) {
+      return res.status(400).json({
+        message: "PDF not found"
+      })
+    }
+
+    res.set({
+      "Content-Type": "application/pdf",
+      "Content-Disposition": `inline; filename="${fileDoc.filename}.pdf"`
+    });
+
+    res.send(fileDoc.data.buffer)
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      message: "Error getting PDF"
+    })
+  }
+};
 // ====================== POST ======================
 const addMember = async (req, res) => {
   try {
-    const { fname, lname, gender, age, birthDate, phoneNumber, email } =
-      req.body;
+    const {
+      fname,
+      lname,
+      gender,
+      age,
+      birthDate,
+      phoneNumber,
+      email,
+      status,
+      talkHistory,
+      prayerHistory,
+    } = req.body;
 
     const newMember = {
       fname,
@@ -66,6 +114,9 @@ const addMember = async (req, res) => {
       birthDate,
       phoneNumber,
       email,
+      status,
+      talkHistory,
+      prayerHistory,
     };
 
     const db = await mongoDB.getDB();
@@ -84,6 +135,37 @@ const addMember = async (req, res) => {
   }
 };
 
+const addMembershipRecord = async (req, res) => {
+  try {
+    const file = req.file;
+    const {wardName} = req.body;
+    console.log(file);
+    if (!file) {
+      return res.status(400).json({
+        message: "PDF file is required",
+      });
+    }
+
+    const db = await mongoDB.getDB();
+    const pdfCollection = db.collection("Pdf");
+
+    await pdfCollection.insertOne({
+      filename: wardName,
+      data: file.buffer,
+      fileType: file.mimetype,
+      uploadedOn: new Date(),
+    });
+
+    res.status(200).json({
+      message: "Successfully stored PDF",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      message: "Error storing PDF",
+    });
+  }
+};
 // ====================== PUT ======================
 const updateMember = async (req, res) => {
   const id = req.params.id;
@@ -128,7 +210,7 @@ const updateMember = async (req, res) => {
       return res.status(404).json({ message: "Member not found" });
     }
 
-    res.status(200).json(result, { message: "Sucessfully updated member" });
+    res.status(200).json({ message: "Successfuly updated member" });
   } catch (error) {
     res.status(500).json({
       message: "Error updating member",
@@ -166,7 +248,9 @@ module.exports = {
   getMemberList,
   getConferenceTalks,
   getMember,
+  getMembershipRecordPDF,
   addMember,
+  addMembershipRecord,
   updateMember,
   deleteMember,
 };
