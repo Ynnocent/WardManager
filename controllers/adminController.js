@@ -1,8 +1,5 @@
 const mongoDB = require("../db/connect.js");
 const ObjectID = require("mongodb").ObjectId;
-const multer = require("multer");
-const storage = multer.memoryStorage();
-const upload = multer({ storage });
 
 // ====================== GET ======================
 const getMemberList = async (req, res) => {
@@ -67,8 +64,6 @@ const getMembershipRecordPDF = async (req, res) => {
     const db = await mongoDB.getDB();
     const pdfCollection = db.collection("Pdf");
     const fileDoc = await pdfCollection.findOne({ _id: fileId});
-    
-    console.log(fileDoc);
     
     if (!fileDoc || !fileDoc.data) {
       return res.status(400).json({
@@ -139,7 +134,6 @@ const addMembershipRecord = async (req, res) => {
   try {
     const file = req.file;
     const {wardName} = req.body;
-    console.log(file);
     if (!file) {
       return res.status(400).json({
         message: "PDF file is required",

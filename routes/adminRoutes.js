@@ -6,7 +6,7 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 const adminController = require("../controllers/adminController");
-
+const memberRecordsConverter = require("../utils/memberRecordConverter");
 /** TO DO
  * - Token Verification
  * - Credential Verification
@@ -19,6 +19,8 @@ router.get("/getMembers", adminController.getMemberList);
 router.get("/getMember/:id", adminController.getMember);
 router.get("/getConferenceTalks", adminController.getConferenceTalks);
 router.get("/getMemberRecordsPDF/:id", adminController.getMembershipRecordPDF);
+
+router.get("/convertRecords/:id", memberRecordsConverter.convertPDFToJSON);
 
 //POST
 router.post("/addMember", adminController.addMember);
