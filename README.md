@@ -4,7 +4,11 @@ This repository is a prototype/final build for the Ward Manager SaaS.
 
 #### To Do:
 - Learn more about Multer (NPM Package)
-- Convert PDF to JSON to insert to Database
+- Convert PDF to JSON to insert to Database ✅
+
+#### Tools for Testing:
+- Jest (Unit Testing)
+- Supertest (Integration Testing)
 
 #### Authors/Owners:
 - Silahis Plucena (Project Manager/CEO ?)

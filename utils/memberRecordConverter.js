@@ -13,7 +13,7 @@ const pythonInterpreter = path.join(
   __dirname,
   "../python/venv/Scripts/python.exe"
 );
-const tempPDFPath = path.join(__dirname, `../pdf/temp_${Date.now()}.pdf`);
+const tempPDFPath = path.join(__dirname, `../temp/temp_${Date.now()}.pdf`);
 
 const convertPDFToJSON = async (req, res, next) => {
   let errorOutput = "";
