@@ -18,13 +18,13 @@ const memberRecordsConverter = require("../utils/memberRecordConverter");
 router.get("/getMembers", adminController.getMemberList);
 router.get("/getMember/:id", adminController.getMember);
 router.get("/getConferenceTalks", adminController.getConferenceTalks);
-router.get("/getMemberRecordsPDF/:id", adminController.getMembershipRecordPDF);
+// router.get("/getMemberRecordsPDF/:id", adminController.getMembershipRecordPDF);
 
-router.get("/convertRecords/:id", memberRecordsConverter.convertPDFToJSON);
+// router.get("/convertRecords/:id", memberRecordsConverter.convertPDFToJSON);
 
 //POST
 router.post("/addMember", adminController.addMember);
-router.post("/addMemberRecords", upload.single("pdfFile"),adminController.addMembershipRecord);
+// router.post("/addMemberRecords", upload.single("pdfFile"),adminController.addMembershipRecord);
 
 //PUT
 router.put("/updateMember/:id", adminController.updateMember);
