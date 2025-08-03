@@ -28,7 +28,7 @@ const convertPDFToJSON = async (req, res, next) => {
     const fileId = ObjectID.createFromHexString(id);
 
     const db = await mongoDb.getDB();
-    const pdfCollection = db.collection("Pdf");
+    const pdfCollection = db.collection("MemberRecordsPDF");
     const fileDoc = await pdfCollection.findOne({ _id: fileId });
 
     if (!fileDoc || !fileDoc.data) {

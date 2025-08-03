@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const adminRoutes = require("./routes/adminRoutes.js");
+const authRoutes = require("./routes/authRoutes.js");
 const dbConnect = require("./db/connect.js");
 
 // Server Config
@@ -21,6 +22,7 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 app.use("/admin", adminRoutes);
+app.use("/auth", authRoutes)
 
 
 // Server Port

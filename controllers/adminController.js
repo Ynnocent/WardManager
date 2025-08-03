@@ -58,31 +58,30 @@ const getMembershipRecordPDF = async (req, res) => {
     if (!ObjectID.isValid(id)) {
       return res.status(400).json({ message: "Invalid ID" });
     }
-  
+
     const fileId = ObjectID.createFromHexString(id);
 
     const db = await mongoDB.getDB();
-    const pdfCollection = db.collection("Pdf");
-    const fileDoc = await pdfCollection.findOne({ _id: fileId});
-    
+    const pdfCollection = db.collection("MemberRecordsPDF");
+    const fileDoc = await pdfCollection.findOne({ _id: fileId });
+
     if (!fileDoc || !fileDoc.data) {
       return res.status(400).json({
-        message: "PDF not found"
-      })
+        message: "PDF not found",
+      });
     }
 
     res.set({
       "Content-Type": "application/pdf",
-      "Content-Disposition": `inline; filename="${fileDoc.filename}.pdf"`
+      "Content-Disposition": `inline; filename="${fileDoc.filename}.pdf"`,
     });
 
-    res.send(fileDoc.data.buffer)
-
+    res.send(fileDoc.data.buffer);
   } catch (error) {
     console.error(error);
     res.status(500).json({
-      message: "Error getting PDF"
-    })
+      message: "Error getting PDF",
+    });
   }
 };
 // ====================== POST ======================
@@ -133,7 +132,7 @@ const addMember = async (req, res) => {
 const addMembershipRecord = async (req, res) => {
   try {
     const file = req.file;
-    const {wardName} = req.body;
+    const { wardName } = req.body;
     if (!file) {
       return res.status(400).json({
         message: "PDF file is required",
@@ -141,7 +140,7 @@ const addMembershipRecord = async (req, res) => {
     }
 
     const db = await mongoDB.getDB();
-    const pdfCollection = db.collection("Pdf");
+    const pdfCollection = db.collection("MemberRecordsPDF");
 
     await pdfCollection.insertOne({
       filename: wardName,
@@ -160,6 +159,7 @@ const addMembershipRecord = async (req, res) => {
     });
   }
 };
+
 // ====================== PUT ======================
 const updateMember = async (req, res) => {
   const id = req.params.id;
@@ -208,6 +208,16 @@ const updateMember = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       message: "Error updating member",
+    });
+  }
+};
+
+const updateMemberRecords = async (req, res) => {
+  try {
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      message: "Error updating Member Records",
     });
   }
 };
