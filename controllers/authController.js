@@ -5,7 +5,9 @@ const loginInUser = async (req, res) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
-    return res.status(400).json({ message: "Email and password are required." });
+    return res
+      .status(400)
+      .json({ message: "Email and password are required." });
   }
 
   try {
@@ -32,7 +34,6 @@ const loginInUser = async (req, res) => {
       user_email: userDetails.email,
       user_ward: userDetails.user_ward,
     };
-    
 
     const authToken = authUtil.sendToken(userPayload);
 
@@ -46,12 +47,13 @@ const loginInUser = async (req, res) => {
   }
 };
 
-
 const logOutUser = async (req, res) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
-    return res.status(400).json({ message: "Email and password are required." });
+    return res
+      .status(400)
+      .json({ message: "Email and password are required." });
   }
 
   try {
@@ -72,29 +74,67 @@ const logOutUser = async (req, res) => {
     if (!isPasswordValid) {
       return res.status(401).json({ message: "Invalid password" });
     }
-
   } catch (error) {}
 };
 
 const createUser = async (req, res) => {
   try {
     const { email, password, user_ward } = req.body;
+    const validMX = authUtil.checkMX(email);
+    if (!validMX) {
+      res.status(400).json({
+        message: "Invalid Email",
+      });
+    }
     const hashedPassword = await authUtil.hashPassword(password);
 
-    const newUser = { email, hashedPassword, user_ward };
+    const newUser = { email, hashedPassword, user_ward, verified: false };
     const db = await mongoDb.getDB();
     const userCollection = await db.collection("Users");
 
     await userCollection.insertOne(newUser);
 
+    const token = authUtil.sendSignUpToken(email);
+
+    await authUtil.sendVerifyEmail(email, token);
+
     res.status(200).json({
-      message: "Successfully created a new user",
+      message: "Verification email sent",
     });
   } catch (error) {
     console.error(error);
     res.status(500).json({
       message: "Error creating new user",
     });
+  }
+};
+
+const verifyNewUser = async (req, res) => {
+  const { token } = req.query;
+
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+    const db = mongoDb.getDB();
+    const usersCollection = await db.collection("Users");
+    const results = await usersCollection.findOne({ email: decoded.email });
+
+    if (!results || results.email !== decoded.email) {
+      return res.status(400).json({
+        message: "Invalid Email",
+      });
+    }
+
+    await usersCollection.updateOne(
+      { email: decoded.email },
+      { $set: { verified: true } }
+    );
+
+    res.status(200).json({
+      message: "Email verified! You can now login",
+    });
+  } catch (err) {
+    res.status(400).json({ message: "Invalid or expired token" });
   }
 };
 
@@ -110,4 +150,5 @@ module.exports = {
   logOutUser,
   getAllUsers,
   createUser,
+  verifyNewUser,
 };
