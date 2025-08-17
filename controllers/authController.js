@@ -1,5 +1,6 @@
 const mongoDb = require("../db/connect");
 const authUtil = require("../utils/authUtil");
+const jwt = require("jsonwebtoken");
 
 const loginInUser = async (req, res) => {
   const { email, password } = req.body;
@@ -82,7 +83,8 @@ const createUser = async (req, res) => {
     const { email, password, user_ward } = req.body;
     const validMX = authUtil.checkMX(email);
     if (!validMX) {
-      res.status(400).json({
+      console.log(validMX);
+      return res.status(400).json({
         message: "Invalid Email",
       });
     }
@@ -113,9 +115,9 @@ const verifyNewUser = async (req, res) => {
   const { token } = req.query;
 
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, process.env.DEV_SECRET_KEY);
 
-    const db = mongoDb.getDB();
+    const db = await mongoDb.getDB();
     const usersCollection = await db.collection("Users");
     const results = await usersCollection.findOne({ email: decoded.email });
 
@@ -130,10 +132,11 @@ const verifyNewUser = async (req, res) => {
       { $set: { verified: true } }
     );
 
-    res.status(200).json({
+    res.status(200).send("Email Verified!").json({
       message: "Email verified! You can now login",
     });
-  } catch (err) {
+  } catch (error) {
+    console.error(error);
     res.status(400).json({ message: "Invalid or expired token" });
   }
 };

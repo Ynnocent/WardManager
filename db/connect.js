@@ -1,10 +1,11 @@
 const MongoDB = require("mongodb").MongoClient;
 const URI = process.env.DB_URI;
 const DB_NAME = process.env.DB_NAME;
+const DEV_URI = process.env.DEV_DB_URI; 
 
 const initDB = async () => {
   try {
-    const db = await MongoDB.connect(URI);
+    const db = await MongoDB.connect(DEV_URI);
     if (!db) {
       throw new Error({
         message: "Failed to connect to DB",
@@ -24,7 +25,7 @@ const initDB = async () => {
 
 const getDB = async () => {
   try {
-    const connection = await MongoDB.connect(URI);
+    const connection = await MongoDB.connect(DEV_URI);
     const db = connection.db(DB_NAME);
     if (!db) {
       throw new Error({

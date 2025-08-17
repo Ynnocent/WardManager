@@ -1,13 +1,13 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const dns = require("dns");
+const dns = require("dns").promises;
 const nodemailer = require("nodemailer");
 
 const emailTransporter = nodemailer.createTransport({
-  service: "Gmail",
+  service: "gmail",
   auth: {
     user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASSWORD,
+    pass: process.env.APP_PASSWORD,
   },
 });
 
@@ -63,10 +63,11 @@ const verifyToken = async () => {
   }
 };
 
-const checkMX = (email) => {
+const checkMX = async (email) => {
   try {
     const domain = email.split("@")[1];
-    const records = dns.resolveMx(domain);
+    const records = await dns.resolveMx(domain);
+    console.log(domain);
     return records && records.length > 0;
   } catch (error) {
     console.error("Invalid Email");
@@ -81,10 +82,34 @@ const sendVerifyEmail = async (to, token) => {
       from: process.env.EMAIL_USER,
       to,
       subject: "Verify Email",
-      text: "Hello and welcome! Verify your email and proceed to the wonderous amazing services we provide you and your team! :D !",
-      html: `<p>Click <a href="${url}">here</a> to verify your email.</p>`,
+      text: "Hello and welcome! Verify your email and proceed to the wonderous amazing services we provide you and your team! :D",
+      html: `
+      <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+        <h2 style="color: #333;">Hello and welcome to WardManager!</h2>
+        <p>Verify your email and proceed to the wonderous amazing services we provide you and your team! :D 🎉</p>
+        <a 
+          href="${url}" 
+          style="
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+          "
+        >
+          Verify Email
+        </a>
+        <p style="margin-top: 20px; font-size: 12px; color: #777;">
+          If the button above doesn’t work, copy and paste this link into your browser:<br/>
+          <a href="${url}">${url}</a>
+        </p>
+      </div>
+    `,
     });
   } catch (error) {
+    console.error(error);
     console.error("Error sending Verification email.");
     return error;
   }
