@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "68a2f04d3664dfe62ff0154a"
+  },
+  "fname": "John",
+  "lname": "Smith",
+  "gender": "Male",
+  "age": "40",
+  "birthDate": "01/09/1995",
+  "phoneNumber": "000-000-0000",
+  "email": "jsmith@gmail.com",
+  "status": "Active",
+  "org": "Elder's Quorum",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f0693664dfe62ff0154b"
+  },
+  "fname": "Jane",
+  "lname": "Smith",
+  "gender": "Female",
+  "age": "35",
+  "birthDate": "10/09/1995",
+  "phoneNumber": "000-000-0000",
+  "email": "janesmith@gmail.com",
+  "status": "Active",
+  "org": "Relief Society",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f08d3664dfe62ff0154c"
+  },
+  "fname": "Loki",
+  "lname": "Odinson",
+  "gender": "Male",
+  "age": "32",
+  "birthDate": "02/03/2000",
+  "phoneNumber": "000-000-0000",
+  "email": "lodinson@gmail.com",
+  "status": "Less Active",
+  "org": "Young Men",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f0a33664dfe62ff0154d"
+  },
+  "fname": "Thor",
+  "lname": "Odinson",
+  "gender": "Male",
+  "age": "35",
+  "birthDate": "02/14/1995",
+  "phoneNumber": "000-000-0000",
+  "email": "todinson@gmail.com",
+  "status": "Active",
+  "org": "Young Men",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f0bf3664dfe62ff0154e"
+  },
+  "fname": "Rick",
+  "lname": "Morty",
+  "gender": "Male",
+  "age": "12",
+  "birthDate": "01/04/2010",
+  "phoneNumber": "000-000-0000",
+  "email": "rmorty@gmail.com",
+  "status": "Active",
+  "org": "Elder's Quorum",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f0df3664dfe62ff0154f"
+  },
+  "fname": "Abigale",
+  "lname": "Moriarty",
+  "gender": "Female",
+  "age": "25",
+  "birthDate": "01/10/1999",
+  "phoneNumber": "000-000-0000",
+  "email": "amoriarty@gmail.com",
+  "status": "Active",
+  "org": "Primary",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f1363664dfe62ff01550"
+  },
+  "fname": "Clark",
+  "lname": "Kent",
+  "gender": "Male",
+  "age": "25",
+  "birthDate": "10/29/1999",
+  "phoneNumber": "000-000-0000",
+  "email": "ckent@gmail.com",
+  "status": "Active",
+  "org": "Primary",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f1553664dfe62ff01551"
+  },
+  "fname": "Lois",
+  "lname": "Lane",
+  "gender": "Female",
+  "age": "24",
+  "birthDate": "04/10/2000",
+  "phoneNumber": "000-000-0000",
+  "email": "llane@gmail.com",
+  "status": "Less Active",
+  "org": "Relief Society",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f1683664dfe62ff01552"
+  },
+  "fname": "Lex",
+  "lname": "Luthor",
+  "gender": "Male",
+  "age": "30",
+  "birthDate": "04/10/1995",
+  "phoneNumber": "000-000-0000",
+  "email": "lluthor@gmail.com",
+  "status": "Less Active",
+  "org": "Elder's Quorum",
+  "talkHistory": [],
+  "prayerHistory": []
+},
+{
+  "_id": {
+    "$oid": "68a2f18f3664dfe62ff01553"
+  },
+  "fname": "Bruce",
+  "lname": "Wayne",
+  "gender": "Male",
+  "age": "20",
+  "birthDate": "04/09/2005",
+  "phoneNumber": "000-000-0000",
+  "email": "bwayne@gmail.com",
+  "status": "Active",
+  "org": "Primary",
+  "talkHistory": [],
+  "prayerHistory": []
+}]

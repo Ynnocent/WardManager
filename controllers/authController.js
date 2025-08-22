@@ -2,6 +2,45 @@ const mongoDb = require("../db/connect");
 const authUtil = require("../utils/authUtil");
 const jwt = require("jsonwebtoken");
 
+// ====================== GET ======================
+const getAllUsers = async (req, res) => {
+  try {
+    const db = await mongoDb.getDB();
+    const userCollection = await db.collection("Users");
+  } catch (error) {}
+};
+
+const verifyNewUser = async (req, res) => {
+  const { token } = req.query;
+
+  try {
+    const decoded = jwt.verify(token, process.env.DEV_SECRET_KEY);
+
+    const db = await mongoDb.getDB();
+    const usersCollection = await db.collection("Users");
+    const results = await usersCollection.findOne({ email: decoded.email });
+
+    if (!results || results.email !== decoded.email) {
+      return res.status(400).json({
+        message: "Invalid Email",
+      });
+    }
+
+    await usersCollection.updateOne(
+      { email: decoded.email },
+      { $set: { verified: true } }
+    );
+
+    res.status(200).send(`${decoded.email} Email Verified!`).json({
+      message: "Email verified! You can now login",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(400).json({ message: "Invalid or expired token" });
+  }
+};
+
+// ====================== POST =====================
 const loginInUser = async (req, res) => {
   const { email, password } = req.body;
 
@@ -41,6 +80,9 @@ const loginInUser = async (req, res) => {
     return res.status(200).json({
       message: "Successful Login",
       authToken,
+      userId: userPayload.id,
+      userWard: userPayload.user_ward,
+      email: userPayload.user_email
     });
   } catch (error) {
     console.error("Login Error:", error);
@@ -111,42 +153,13 @@ const createUser = async (req, res) => {
   }
 };
 
-const verifyNewUser = async (req, res) => {
-  const { token } = req.query;
+// ====================== PUT ======================
 
-  try {
-    const decoded = jwt.verify(token, process.env.DEV_SECRET_KEY);
+// ====================== DELETE ===================
 
-    const db = await mongoDb.getDB();
-    const usersCollection = await db.collection("Users");
-    const results = await usersCollection.findOne({ email: decoded.email });
 
-    if (!results || results.email !== decoded.email) {
-      return res.status(400).json({
-        message: "Invalid Email",
-      });
-    }
 
-    await usersCollection.updateOne(
-      { email: decoded.email },
-      { $set: { verified: true } }
-    );
 
-    res.status(200).send("Email Verified!").json({
-      message: "Email verified! You can now login",
-    });
-  } catch (error) {
-    console.error(error);
-    res.status(400).json({ message: "Invalid or expired token" });
-  }
-};
-
-const getAllUsers = async (req, res) => {
-  try {
-    const db = await mongoDb.getDB();
-    const userCollection = await db.collection("Users");
-  } catch (error) {}
-};
 
 module.exports = {
   loginInUser,

@@ -28,11 +28,12 @@ const getConferenceTalks = (req, res) => {
 };
 
 const getMember = async (req, res) => {
-  const id = req.params.id;
+  const id = req.query.id;
+  console.log(id);
   if (!ObjectID.isValid(id)) {
     return res.status(400).json({ message: "Invalid ID" });
   }
-
+  
   const userId = ObjectID.createFromHexString(id);
 
   try {
@@ -84,7 +85,8 @@ const getMembershipRecordPDF = async (req, res) => {
     });
   }
 };
-// ====================== POST ======================
+
+// ====================== POST =====================
 const addMember = async (req, res) => {
   try {
     const {
@@ -96,8 +98,6 @@ const addMember = async (req, res) => {
       phoneNumber,
       email,
       status,
-      talkHistory,
-      prayerHistory,
     } = req.body;
 
     const newMember = {
@@ -109,8 +109,8 @@ const addMember = async (req, res) => {
       phoneNumber,
       email,
       status,
-      talkHistory,
-      prayerHistory,
+      talkHistory: [],
+      prayerHistory: [],
     };
 
     const db = await mongoDB.getDB();
@@ -222,7 +222,7 @@ const updateMemberRecords = async (req, res) => {
   }
 };
 
-// ====================== DELETE ======================
+// ====================== DELETE ===================
 const deleteMember = async (req, res) => {
   const id = req.params.id;
   if (!ObjectID.isValid(id)) {

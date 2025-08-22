@@ -77,7 +77,7 @@ const checkMX = async (email) => {
 
 const sendVerifyEmail = async (to, token) => {
   try {
-    const url = `https://wardmanager.onrender.com/auth/verify-email?token=${token}`;
+    const url = `${process.env.DOMAIN_URL}/auth/verify-email?token=${token}`;
     return emailTransporter.sendMail({
       from: process.env.EMAIL_USER,
       to,
