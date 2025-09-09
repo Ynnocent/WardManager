@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --detectOpenHandles --forceExit",
     "dev": "nodemon --env-file=.env server.js",
     "start": "node --env-file=.env server.js"
   },
@@ -24,6 +24,7 @@
     "nodemailer": "^7.0.5"
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "jest": "^30.0.5",
     "nodemon": "^3.1.10",
     "supertest": "^7.1.4"

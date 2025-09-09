@@ -5,7 +5,7 @@ This repository is a prototype/final build for the Ward Manager SaaS.
 #### To Do:
 - Learn more about Multer (NPM Package) ✅
 - Convert PDF to JSON to insert to Database ✅
-- Develop Sacrament Overview functionality
+- Develop Sacrament Overview functionality 
 - Develop Gen Con talk scraper
 
 #### Tools for Testing:

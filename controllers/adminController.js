@@ -29,7 +29,6 @@ const getConferenceTalks = (req, res) => {
 
 const getMember = async (req, res) => {
   const id = req.query.id;
-  console.log(id);
   if (!ObjectID.isValid(id)) {
     return res.status(400).json({ message: "Invalid ID" });
   }
@@ -116,8 +115,6 @@ const addMember = async (req, res) => {
     const db = await mongoDB.getDB();
     const memberCollection = db.collection("Members");
     await memberCollection.insertOne(newMember);
-
-    console.log(newMember);
 
     res.status(200).json({
       message: "Success adding a new member",

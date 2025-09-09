@@ -1,6 +1,7 @@
 const mongoDb = require("../db/connect");
 const authUtil = require("../utils/authUtil");
 const ObjectID = require("mongodb").ObjectId;
+const emailerUtil = require("../utils/emailerUtil");
 
 // ====================== GET ======================
 const getGospelTopics = async (req, res) => {
@@ -23,18 +24,27 @@ const getGospelTopics = async (req, res) => {
 const getMembersByOrg = async (req, res) => {
   try {
     const org = req.query.org;
-    // console.log(id);
     const db = await mongoDb.getDB();
     const memberCollection = await db.collection("Members");
 
-    const results = memberCollection.find({
-      org: org,
-    });
+    let results;
 
-    results.toArray().then((lists) => {
-      res.setHeader("Content-Type", "application/json");
-      return res.status(200).json(lists);
-    });
+    if (org == "All") {
+      results = memberCollection.find();
+      results.toArray().then((lists)=>{
+        res.setHeader("Content-Type", "application/json");
+        return res.status(200).json(lists);
+      })
+    } else {
+      results = memberCollection.find({
+        org: org,
+      });
+
+      results.toArray().then((lists) => {
+        res.setHeader("Content-Type", "application/json");
+        return res.status(200).json(lists);
+      });
+    }
   } catch (error) {
     console.error(error);
     res.status(500).json({
@@ -48,7 +58,7 @@ const getMemberByStatus = async (req, res) => {
     const status = req.query.status;
 
     const db = await mongoDb.getDB();
-    
+
     const memberCollection = await db.collection("Members");
 
     const results = memberCollection.find({
@@ -57,7 +67,10 @@ const getMemberByStatus = async (req, res) => {
 
     results.toArray().then((lists) => {
       res.setHeader("Content-Type", "application/json");
-      return res.status(200).json(lists);
+      return res.status(200).json({
+        message: "Success getting members by status",
+        data: lists,
+      });
     });
   } catch (error) {
     console.error(error);
@@ -65,7 +78,7 @@ const getMemberByStatus = async (req, res) => {
       message: "Error Getting Members by Status",
     });
   }
-}
+};
 // ====================== POST =====================
 const createSacramentAssignment = async (req, res, next) => {
   try {
@@ -73,13 +86,11 @@ const createSacramentAssignment = async (req, res, next) => {
     const presidingMember = req.body.presidingMember;
     const openingPrayerMember = req.body.openingPrayerMember;
     const closingPrayerMember = req.body.closingPrayerMember;
+    const emailTemplate = req.body.emailTemplate;
 
-    // These are stringified JSON, so parse them
     const firstSpeakerMember = JSON.parse(req.body.firstSpeakerMember);
     const secondSpeakerMember = JSON.parse(req.body.secondSpeakerMember);
     const thirdSpeakerMember = JSON.parse(req.body.thirdSpeakerMember);
-
-    // const hymnsId = hymns;
 
     const presidingMemberUID = ObjectID.createFromHexString(presidingMember);
 
@@ -100,6 +111,48 @@ const createSacramentAssignment = async (req, res, next) => {
 
     const db = await mongoDb.getDB();
     const memberCollection = await db.collection("Members");
+
+    // Send Email to Speakers and Prayers
+
+    const firstSpeakerMemberResult = await memberCollection.findOne({
+      _id: firstSpeakerMemberUID,
+    });
+    // emailerUtil.sendEmailSpeakerAssignment(
+    //   firstSpeakerMember.email,
+    //   firstSpeakerMemberResult
+    // ); // Email to, and the member object
+
+    const secondSpeakerMemberResult = await memberCollection.findOne({
+      _id: secondSpeakerMemberUID,
+    });
+    // emailerUtil.sendEmailSpeakerAssignment(
+    //   secondSpeakerMemberResult.email,
+    //   secondSpeakerMemberResult
+    // ); // Email to, and the member object
+
+    const thirdSpeakerMemberResult = await memberCollection.findOne({
+      _id: thirdSpeakerMemberUID,
+    });
+    // emailerUtil.sendEmailSpeakerAssignment(
+    //   thirdSpeakerMemberResult.email,
+    //   thirdSpeakerMemberResult
+    // ); // Email to, and the member object
+
+    const openingPrayerMemberResult = await memberCollection.findOne({
+      _id: openingPrayerMemberUID,
+    });
+    // emailerUtil.sendEmailPrayerAssignment(
+    //   openingPrayerMemberResult.email,
+    //   openingPrayerMemberResult
+    // ); // Email to, and the member object
+
+    const closingPrayerMemberResult = await memberCollection.findOne({
+      _id: closingPrayerMemberUID,
+    });
+    // emailerUtil.sendEmailPrayerAssignment(
+    //   closingPrayerMemberResult.email,
+    //   closingPrayerMemberResult
+    // ); // Email to, and the member object
 
     await memberCollection.updateMany(
       { _id: { $in: [openingPrayerMemberUID, closingPrayerMemberUID] } },
@@ -172,5 +225,5 @@ module.exports = {
   addSacramentAssHistory,
   getGospelTopics,
   getMembersByOrg,
-  getMemberByStatus
+  getMemberByStatus,
 };

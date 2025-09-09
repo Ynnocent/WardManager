@@ -1,0 +1,2640 @@
+[{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296ef"
+  },
+  "gospelTopic": "Aaronic Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f0"
+  },
+  "gospelTopic": "Abortion"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f1"
+  },
+  "gospelTopic": "Abraham, Book of"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f2"
+  },
+  "gospelTopic": "Abrahamic Covenant"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f3"
+  },
+  "gospelTopic": "Abuse"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f4"
+  },
+  "gospelTopic": "Addiction"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f5"
+  },
+  "gospelTopic": "Adoption"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f6"
+  },
+  "gospelTopic": "Adversity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f7"
+  },
+  "gospelTopic": "Agency and Accountability"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f8"
+  },
+  "gospelTopic": "Apostasy"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296f9"
+  },
+  "gospelTopic": "Apostle"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296fa"
+  },
+  "gospelTopic": "Are Mormons Christian?"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296fb"
+  },
+  "gospelTopic": "Articles of Faith"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296fc"
+  },
+  "gospelTopic": "Atonement of Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296fd"
+  },
+  "gospelTopic": "Baptism"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296fe"
+  },
+  "gospelTopic": "Baptisms for the Dead"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2296ff"
+  },
+  "gospelTopic": "Becoming Like God"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229700"
+  },
+  "gospelTopic": "Bible"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229701"
+  },
+  "gospelTopic": "Bible, Inerrancy of"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229702"
+  },
+  "gospelTopic": "Birth Control"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229703"
+  },
+  "gospelTopic": "Bishop"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229704"
+  },
+  "gospelTopic": "Blessing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229705"
+  },
+  "gospelTopic": "Book of Mormon"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229706"
+  },
+  "gospelTopic": "Book of Mormon and DNA Studies"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229707"
+  },
+  "gospelTopic": "Book of Mormon Geography"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229708"
+  },
+  "gospelTopic": "Caring for Those in Need"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229709"
+  },
+  "gospelTopic": "Celestial Kingdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22970a"
+  },
+  "gospelTopic": "Charity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22970b"
+  },
+  "gospelTopic": "Chastity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22970c"
+  },
+  "gospelTopic": "Children of God"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22970d"
+  },
+  "gospelTopic": "Christmas"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22970e"
+  },
+  "gospelTopic": "Church Councils"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22970f"
+  },
+  "gospelTopic": "Church Financial Administration"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229710"
+  },
+  "gospelTopic": "Church Organization"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229711"
+  },
+  "gospelTopic": "Commandments"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229712"
+  },
+  "gospelTopic": "Conscience"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229713"
+  },
+  "gospelTopic": "Consecration"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229714"
+  },
+  "gospelTopic": "Conversion"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229715"
+  },
+  "gospelTopic": "Council in Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229716"
+  },
+  "gospelTopic": "Covenant"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229717"
+  },
+  "gospelTopic": "Creation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229718"
+  },
+  "gospelTopic": "Cross"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229719"
+  },
+  "gospelTopic": "Dating and Courtship"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22971a"
+  },
+  "gospelTopic": "Deacon"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22971b"
+  },
+  "gospelTopic": "Death, Physical"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22971c"
+  },
+  "gospelTopic": "Death, Spiritual"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22971d"
+  },
+  "gospelTopic": "Debt"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22971e"
+  },
+  "gospelTopic": "Disabilities"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22971f"
+  },
+  "gospelTopic": "Dispensations"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229720"
+  },
+  "gospelTopic": "Diversity and Unity in The Church of Jesus Christ of Latter-day Saints"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229721"
+  },
+  "gospelTopic": "Divorce"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229722"
+  },
+  "gospelTopic": "Doctrine and Covenants"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229723"
+  },
+  "gospelTopic": "Easter"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229724"
+  },
+  "gospelTopic": "Education"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229725"
+  },
+  "gospelTopic": "Elder"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229726"
+  },
+  "gospelTopic": "Emergency Preparedness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229727"
+  },
+  "gospelTopic": "Emergency Response"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229728"
+  },
+  "gospelTopic": "Employment"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229729"
+  },
+  "gospelTopic": "Endowment"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22972a"
+  },
+  "gospelTopic": "Endure to the End"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22972b"
+  },
+  "gospelTopic": "Environmental Stewardship and Conservation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22972c"
+  },
+  "gospelTopic": "Eternal Life"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22972d"
+  },
+  "gospelTopic": "Everlasting Covenant"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22972e"
+  },
+  "gospelTopic": "Faith in Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22972f"
+  },
+  "gospelTopic": "Fall of Adam and Eve"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229730"
+  },
+  "gospelTopic": "Family"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229731"
+  },
+  "gospelTopic": "Family Councils"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229732"
+  },
+  "gospelTopic": "Family Finances"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229733"
+  },
+  "gospelTopic": "Family History"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229734"
+  },
+  "gospelTopic": "Family Home Evening"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229735"
+  },
+  "gospelTopic": "Fasting and Fast Offerings"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229736"
+  },
+  "gospelTopic": "First Presidency"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229737"
+  },
+  "gospelTopic": "First Vision"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229738"
+  },
+  "gospelTopic": "First Vision Accounts"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229739"
+  },
+  "gospelTopic": "Food Storage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22973a"
+  },
+  "gospelTopic": "Foreordination"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22973b"
+  },
+  "gospelTopic": "Forgiveness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22973c"
+  },
+  "gospelTopic": "Gambling"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22973d"
+  },
+  "gospelTopic": "Garments"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22973e"
+  },
+  "gospelTopic": "Gathering of Israel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22973f"
+  },
+  "gospelTopic": "Gifts of the Spirit"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229740"
+  },
+  "gospelTopic": "Godhead"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229741"
+  },
+  "gospelTopic": "God the Father"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229742"
+  },
+  "gospelTopic": "Gold Plates"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229743"
+  },
+  "gospelTopic": "Gospel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229744"
+  },
+  "gospelTopic": "Grace"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229745"
+  },
+  "gospelTopic": "Gratitude"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229746"
+  },
+  "gospelTopic": "Grief"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229747"
+  },
+  "gospelTopic": "Happiness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229748"
+  },
+  "gospelTopic": "Health"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229749"
+  },
+  "gospelTopic": "Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22974a"
+  },
+  "gospelTopic": "Heavenly Parents"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22974b"
+  },
+  "gospelTopic": "Hell"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22974c"
+  },
+  "gospelTopic": "High Council"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22974d"
+  },
+  "gospelTopic": "High Priest"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22974e"
+  },
+  "gospelTopic": "Holy Ghost"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22974f"
+  },
+  "gospelTopic": "Home Evening"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229750"
+  },
+  "gospelTopic": "Honesty"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229751"
+  },
+  "gospelTopic": "Hope"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229752"
+  },
+  "gospelTopic": "Humility"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229753"
+  },
+  "gospelTopic": "Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229754"
+  },
+  "gospelTopic": "Joseph Smith"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229755"
+  },
+  "gospelTopic": "Joseph Smith's Teachings about Priesthood, Temple, and Women"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229756"
+  },
+  "gospelTopic": "Journal of Discourses"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229757"
+  },
+  "gospelTopic": "Judgment"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229758"
+  },
+  "gospelTopic": "Justice"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229759"
+  },
+  "gospelTopic": "Kingdoms of Glory"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22975a"
+  },
+  "gospelTopic": "Laying On of Hands"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22975b"
+  },
+  "gospelTopic": "Light of Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22975c"
+  },
+  "gospelTopic": "Love"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22975d"
+  },
+  "gospelTopic": "Marriage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22975e"
+  },
+  "gospelTopic": "Media"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22975f"
+  },
+  "gospelTopic": "Melchizedek Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229760"
+  },
+  "gospelTopic": "Membership Councils"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229761"
+  },
+  "gospelTopic": "Mercy"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229762"
+  },
+  "gospelTopic": "Millennium"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229763"
+  },
+  "gospelTopic": "Ministering"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229764"
+  },
+  "gospelTopic": "Miracles"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229765"
+  },
+  "gospelTopic": "Missionary Work"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229766"
+  },
+  "gospelTopic": "Modesty"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229767"
+  },
+  "gospelTopic": "Mormon Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229768"
+  },
+  "gospelTopic": "Mormonism"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229769"
+  },
+  "gospelTopic": "Mormons"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22976a"
+  },
+  "gospelTopic": "Mortality"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22976b"
+  },
+  "gospelTopic": "Mother in Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22976c"
+  },
+  "gospelTopic": "Mountain Meadows Massacre"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22976d"
+  },
+  "gospelTopic": "Movies and Television"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22976e"
+  },
+  "gospelTopic": "Music"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22976f"
+  },
+  "gospelTopic": "Obedience"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229770"
+  },
+  "gospelTopic": "The Only True and Living Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229771"
+  },
+  "gospelTopic": "Ordinances"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229772"
+  },
+  "gospelTopic": "Paradise"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229773"
+  },
+  "gospelTopic": "Parenting"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229774"
+  },
+  "gospelTopic": "Patriarch"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229775"
+  },
+  "gospelTopic": "Patriarchal Blessings"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229776"
+  },
+  "gospelTopic": "Peace"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229777"
+  },
+  "gospelTopic": "Peace and Violence among 19th-Century Latter-day Saints"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229778"
+  },
+  "gospelTopic": "Pearl of Great Price"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229779"
+  },
+  "gospelTopic": "Plan of Salvation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22977a"
+  },
+  "gospelTopic": "Plural Marriage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22977b"
+  },
+  "gospelTopic": "Pornography"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22977c"
+  },
+  "gospelTopic": "Postmortality"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22977d"
+  },
+  "gospelTopic": "Prayer"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22977e"
+  },
+  "gospelTopic": "Premortal Life"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22977f"
+  },
+  "gospelTopic": "Priest"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229780"
+  },
+  "gospelTopic": "Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229781"
+  },
+  "gospelTopic": "Priesthood and Race"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229782"
+  },
+  "gospelTopic": "Priesthood Blessing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229783"
+  },
+  "gospelTopic": "Priesthood Keys"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229784"
+  },
+  "gospelTopic": "Prison Ministry"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229785"
+  },
+  "gospelTopic": "Prophets"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229786"
+  },
+  "gospelTopic": "Quorum"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229787"
+  },
+  "gospelTopic": "Quorum of the Twelve Apostles"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229788"
+  },
+  "gospelTopic": "Race and The Church of Jesus Christ of Latter-day Saints"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229789"
+  },
+  "gospelTopic": "Racial and Cultural Prejudice"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22978a"
+  },
+  "gospelTopic": "Relief Society"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22978b"
+  },
+  "gospelTopic": "Religion and Science"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22978c"
+  },
+  "gospelTopic": "Religion vs. Violence"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22978d"
+  },
+  "gospelTopic": "Religious Freedom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22978e"
+  },
+  "gospelTopic": "Repentance"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22978f"
+  },
+  "gospelTopic": "Restoration of the Gospel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229790"
+  },
+  "gospelTopic": "Restoration of the Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229791"
+  },
+  "gospelTopic": "Resurrection"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229792"
+  },
+  "gospelTopic": "Revelation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229793"
+  },
+  "gospelTopic": "Reverence"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229794"
+  },
+  "gospelTopic": "Sabbath Day"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229795"
+  },
+  "gospelTopic": "Sacrament"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229796"
+  },
+  "gospelTopic": "Sacrament Meeting"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229797"
+  },
+  "gospelTopic": "Sacrifice"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229798"
+  },
+  "gospelTopic": "Salvation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f229799"
+  },
+  "gospelTopic": "Same-Sex Attraction"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22979a"
+  },
+  "gospelTopic": "Same-Sex Marriage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22979b"
+  },
+  "gospelTopic": "Satan"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22979c"
+  },
+  "gospelTopic": "Scriptures"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22979d"
+  },
+  "gospelTopic": "Sealing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22979e"
+  },
+  "gospelTopic": "Second Coming of Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f22979f"
+  },
+  "gospelTopic": "Self-Reliance"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a0"
+  },
+  "gospelTopic": "Service"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a1"
+  },
+  "gospelTopic": "Sex Education and Behavior"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a2"
+  },
+  "gospelTopic": "Sin"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a3"
+  },
+  "gospelTopic": "Single Adult Members of the Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a4"
+  },
+  "gospelTopic": "Single-Parent Families"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a5"
+  },
+  "gospelTopic": "Soul"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a6"
+  },
+  "gospelTopic": "Spaulding Manuscript"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a7"
+  },
+  "gospelTopic": "Spirit"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a8"
+  },
+  "gospelTopic": "Spirit Children of Heavenly Parents"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297a9"
+  },
+  "gospelTopic": "Spiritual Experiences"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297aa"
+  },
+  "gospelTopic": "Spiritual Gifts"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297ab"
+  },
+  "gospelTopic": "Spirit World"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297ac"
+  },
+  "gospelTopic": "Stake"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297ad"
+  },
+  "gospelTopic": "Standard Works"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297ae"
+  },
+  "gospelTopic": "Stewardship"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297af"
+  },
+  "gospelTopic": "Suicide"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b0"
+  },
+  "gospelTopic": "Tattooing and Body Piercing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b1"
+  },
+  "gospelTopic": "Teacher (Aaronic Priesthood)"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b2"
+  },
+  "gospelTopic": "Teaching the Gospel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b3"
+  },
+  "gospelTopic": "Telestial Kingdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b4"
+  },
+  "gospelTopic": "Temples"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b5"
+  },
+  "gospelTopic": "Temptation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b6"
+  },
+  "gospelTopic": "Ten Commandments"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b7"
+  },
+  "gospelTopic": "Terrestrial Kingdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b8"
+  },
+  "gospelTopic": "Testimony"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297b9"
+  },
+  "gospelTopic": "Tithing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297ba"
+  },
+  "gospelTopic": "Transgender"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297bb"
+  },
+  "gospelTopic": "Transgression"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297bc"
+  },
+  "gospelTopic": "Translation and Historicity of the Book of Abraham"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297bd"
+  },
+  "gospelTopic": "Transparency about Church History"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297be"
+  },
+  "gospelTopic": "Truth"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297bf"
+  },
+  "gospelTopic": "Unity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c0"
+  },
+  "gospelTopic": "Unwed Pregnancy"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c1"
+  },
+  "gospelTopic": "Urim and Thummim"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c2"
+  },
+  "gospelTopic": "Vicarious Work"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c3"
+  },
+  "gospelTopic": "Virtue"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c4"
+  },
+  "gospelTopic": "War"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c5"
+  },
+  "gospelTopic": "War in Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c6"
+  },
+  "gospelTopic": "Witness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c7"
+  },
+  "gospelTopic": "Women in the Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c8"
+  },
+  "gospelTopic": "Word of Wisdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297c9"
+  },
+  "gospelTopic": "Worship"
+},
+{
+  "_id": {
+    "$oid": "68a2fdacf51e4ad50f2297ca"
+  },
+  "gospelTopic": "Zion"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b466"
+  },
+  "gospelTopic": "Aaronic Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b467"
+  },
+  "gospelTopic": "Abortion"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b468"
+  },
+  "gospelTopic": "Abraham, Book of"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b469"
+  },
+  "gospelTopic": "Abrahamic Covenant"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b46a"
+  },
+  "gospelTopic": "Abuse"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b46b"
+  },
+  "gospelTopic": "Addiction"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b46c"
+  },
+  "gospelTopic": "Adoption"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b46d"
+  },
+  "gospelTopic": "Adversity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b46e"
+  },
+  "gospelTopic": "Agency and Accountability"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b46f"
+  },
+  "gospelTopic": "Apostasy"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b470"
+  },
+  "gospelTopic": "Apostle"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b471"
+  },
+  "gospelTopic": "Are Mormons Christian?"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b472"
+  },
+  "gospelTopic": "Articles of Faith"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b473"
+  },
+  "gospelTopic": "Atonement of Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b474"
+  },
+  "gospelTopic": "Baptism"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b475"
+  },
+  "gospelTopic": "Baptisms for the Dead"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b476"
+  },
+  "gospelTopic": "Becoming Like God"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b477"
+  },
+  "gospelTopic": "Bible"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b478"
+  },
+  "gospelTopic": "Bible, Inerrancy of"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b479"
+  },
+  "gospelTopic": "Birth Control"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b47a"
+  },
+  "gospelTopic": "Bishop"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b47b"
+  },
+  "gospelTopic": "Blessing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b47c"
+  },
+  "gospelTopic": "Book of Mormon"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b47d"
+  },
+  "gospelTopic": "Book of Mormon and DNA Studies"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b47e"
+  },
+  "gospelTopic": "Book of Mormon Geography"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b47f"
+  },
+  "gospelTopic": "Caring for Those in Need"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b480"
+  },
+  "gospelTopic": "Celestial Kingdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b481"
+  },
+  "gospelTopic": "Charity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b482"
+  },
+  "gospelTopic": "Chastity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b483"
+  },
+  "gospelTopic": "Children of God"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b484"
+  },
+  "gospelTopic": "Christmas"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b485"
+  },
+  "gospelTopic": "Church Councils"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b486"
+  },
+  "gospelTopic": "Church Financial Administration"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b487"
+  },
+  "gospelTopic": "Church Organization"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b488"
+  },
+  "gospelTopic": "Commandments"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b489"
+  },
+  "gospelTopic": "Conscience"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b48a"
+  },
+  "gospelTopic": "Consecration"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b48b"
+  },
+  "gospelTopic": "Conversion"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b48c"
+  },
+  "gospelTopic": "Council in Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b48d"
+  },
+  "gospelTopic": "Covenant"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b48e"
+  },
+  "gospelTopic": "Creation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b48f"
+  },
+  "gospelTopic": "Cross"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b490"
+  },
+  "gospelTopic": "Dating and Courtship"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b491"
+  },
+  "gospelTopic": "Deacon"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b492"
+  },
+  "gospelTopic": "Death, Physical"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b493"
+  },
+  "gospelTopic": "Death, Spiritual"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b494"
+  },
+  "gospelTopic": "Debt"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b495"
+  },
+  "gospelTopic": "Disabilities"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b496"
+  },
+  "gospelTopic": "Dispensations"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b497"
+  },
+  "gospelTopic": "Diversity and Unity in The Church of Jesus Christ of Latter-day Saints"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b498"
+  },
+  "gospelTopic": "Divorce"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b499"
+  },
+  "gospelTopic": "Doctrine and Covenants"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b49a"
+  },
+  "gospelTopic": "Easter"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b49b"
+  },
+  "gospelTopic": "Education"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b49c"
+  },
+  "gospelTopic": "Elder"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b49d"
+  },
+  "gospelTopic": "Emergency Preparedness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b49e"
+  },
+  "gospelTopic": "Emergency Response"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b49f"
+  },
+  "gospelTopic": "Employment"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a0"
+  },
+  "gospelTopic": "Endowment"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a1"
+  },
+  "gospelTopic": "Endure to the End"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a2"
+  },
+  "gospelTopic": "Environmental Stewardship and Conservation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a3"
+  },
+  "gospelTopic": "Eternal Life"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a4"
+  },
+  "gospelTopic": "Everlasting Covenant"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a5"
+  },
+  "gospelTopic": "Faith in Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a6"
+  },
+  "gospelTopic": "Fall of Adam and Eve"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a7"
+  },
+  "gospelTopic": "Family"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a8"
+  },
+  "gospelTopic": "Family Councils"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4a9"
+  },
+  "gospelTopic": "Family Finances"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4aa"
+  },
+  "gospelTopic": "Family History"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ab"
+  },
+  "gospelTopic": "Family Home Evening"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ac"
+  },
+  "gospelTopic": "Fasting and Fast Offerings"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ad"
+  },
+  "gospelTopic": "First Presidency"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ae"
+  },
+  "gospelTopic": "First Vision"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4af"
+  },
+  "gospelTopic": "First Vision Accounts"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b0"
+  },
+  "gospelTopic": "Food Storage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b1"
+  },
+  "gospelTopic": "Foreordination"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b2"
+  },
+  "gospelTopic": "Forgiveness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b3"
+  },
+  "gospelTopic": "Gambling"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b4"
+  },
+  "gospelTopic": "Garments"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b5"
+  },
+  "gospelTopic": "Gathering of Israel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b6"
+  },
+  "gospelTopic": "Gifts of the Spirit"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b7"
+  },
+  "gospelTopic": "Godhead"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b8"
+  },
+  "gospelTopic": "God the Father"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4b9"
+  },
+  "gospelTopic": "Gold Plates"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ba"
+  },
+  "gospelTopic": "Gospel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4bb"
+  },
+  "gospelTopic": "Grace"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4bc"
+  },
+  "gospelTopic": "Gratitude"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4bd"
+  },
+  "gospelTopic": "Grief"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4be"
+  },
+  "gospelTopic": "Happiness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4bf"
+  },
+  "gospelTopic": "Health"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c0"
+  },
+  "gospelTopic": "Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c1"
+  },
+  "gospelTopic": "Heavenly Parents"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c2"
+  },
+  "gospelTopic": "Hell"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c3"
+  },
+  "gospelTopic": "High Council"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c4"
+  },
+  "gospelTopic": "High Priest"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c5"
+  },
+  "gospelTopic": "Holy Ghost"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c6"
+  },
+  "gospelTopic": "Home Evening"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c7"
+  },
+  "gospelTopic": "Honesty"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c8"
+  },
+  "gospelTopic": "Hope"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4c9"
+  },
+  "gospelTopic": "Humility"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ca"
+  },
+  "gospelTopic": "Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4cb"
+  },
+  "gospelTopic": "Joseph Smith"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4cc"
+  },
+  "gospelTopic": "Joseph Smith's Teachings about Priesthood, Temple, and Women"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4cd"
+  },
+  "gospelTopic": "Journal of Discourses"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ce"
+  },
+  "gospelTopic": "Judgment"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4cf"
+  },
+  "gospelTopic": "Justice"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d0"
+  },
+  "gospelTopic": "Kingdoms of Glory"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d1"
+  },
+  "gospelTopic": "Laying On of Hands"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d2"
+  },
+  "gospelTopic": "Light of Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d3"
+  },
+  "gospelTopic": "Love"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d4"
+  },
+  "gospelTopic": "Marriage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d5"
+  },
+  "gospelTopic": "Media"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d6"
+  },
+  "gospelTopic": "Melchizedek Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d7"
+  },
+  "gospelTopic": "Membership Councils"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d8"
+  },
+  "gospelTopic": "Mercy"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4d9"
+  },
+  "gospelTopic": "Millennium"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4da"
+  },
+  "gospelTopic": "Ministering"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4db"
+  },
+  "gospelTopic": "Miracles"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4dc"
+  },
+  "gospelTopic": "Missionary Work"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4dd"
+  },
+  "gospelTopic": "Modesty"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4de"
+  },
+  "gospelTopic": "Mormon Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4df"
+  },
+  "gospelTopic": "Mormonism"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e0"
+  },
+  "gospelTopic": "Mormons"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e1"
+  },
+  "gospelTopic": "Mortality"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e2"
+  },
+  "gospelTopic": "Mother in Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e3"
+  },
+  "gospelTopic": "Mountain Meadows Massacre"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e4"
+  },
+  "gospelTopic": "Movies and Television"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e5"
+  },
+  "gospelTopic": "Music"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e6"
+  },
+  "gospelTopic": "Obedience"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e7"
+  },
+  "gospelTopic": "The Only True and Living Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e8"
+  },
+  "gospelTopic": "Ordinances"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4e9"
+  },
+  "gospelTopic": "Paradise"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ea"
+  },
+  "gospelTopic": "Parenting"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4eb"
+  },
+  "gospelTopic": "Patriarch"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ec"
+  },
+  "gospelTopic": "Patriarchal Blessings"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ed"
+  },
+  "gospelTopic": "Peace"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ee"
+  },
+  "gospelTopic": "Peace and Violence among 19th-Century Latter-day Saints"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ef"
+  },
+  "gospelTopic": "Pearl of Great Price"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f0"
+  },
+  "gospelTopic": "Plan of Salvation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f1"
+  },
+  "gospelTopic": "Plural Marriage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f2"
+  },
+  "gospelTopic": "Pornography"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f3"
+  },
+  "gospelTopic": "Postmortality"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f4"
+  },
+  "gospelTopic": "Prayer"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f5"
+  },
+  "gospelTopic": "Premortal Life"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f6"
+  },
+  "gospelTopic": "Priest"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f7"
+  },
+  "gospelTopic": "Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f8"
+  },
+  "gospelTopic": "Priesthood and Race"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4f9"
+  },
+  "gospelTopic": "Priesthood Blessing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4fa"
+  },
+  "gospelTopic": "Priesthood Keys"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4fb"
+  },
+  "gospelTopic": "Prison Ministry"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4fc"
+  },
+  "gospelTopic": "Prophets"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4fd"
+  },
+  "gospelTopic": "Quorum"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4fe"
+  },
+  "gospelTopic": "Quorum of the Twelve Apostles"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b4ff"
+  },
+  "gospelTopic": "Race and The Church of Jesus Christ of Latter-day Saints"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b500"
+  },
+  "gospelTopic": "Racial and Cultural Prejudice"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b501"
+  },
+  "gospelTopic": "Relief Society"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b502"
+  },
+  "gospelTopic": "Religion and Science"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b503"
+  },
+  "gospelTopic": "Religion vs. Violence"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b504"
+  },
+  "gospelTopic": "Religious Freedom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b505"
+  },
+  "gospelTopic": "Repentance"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b506"
+  },
+  "gospelTopic": "Restoration of the Gospel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b507"
+  },
+  "gospelTopic": "Restoration of the Priesthood"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b508"
+  },
+  "gospelTopic": "Resurrection"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b509"
+  },
+  "gospelTopic": "Revelation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b50a"
+  },
+  "gospelTopic": "Reverence"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b50b"
+  },
+  "gospelTopic": "Sabbath Day"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b50c"
+  },
+  "gospelTopic": "Sacrament"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b50d"
+  },
+  "gospelTopic": "Sacrament Meeting"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b50e"
+  },
+  "gospelTopic": "Sacrifice"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b50f"
+  },
+  "gospelTopic": "Salvation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b510"
+  },
+  "gospelTopic": "Same-Sex Attraction"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b511"
+  },
+  "gospelTopic": "Same-Sex Marriage"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b512"
+  },
+  "gospelTopic": "Satan"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b513"
+  },
+  "gospelTopic": "Scriptures"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b514"
+  },
+  "gospelTopic": "Sealing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b515"
+  },
+  "gospelTopic": "Second Coming of Jesus Christ"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b516"
+  },
+  "gospelTopic": "Self-Reliance"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b517"
+  },
+  "gospelTopic": "Service"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b518"
+  },
+  "gospelTopic": "Sex Education and Behavior"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b519"
+  },
+  "gospelTopic": "Sin"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b51a"
+  },
+  "gospelTopic": "Single Adult Members of the Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b51b"
+  },
+  "gospelTopic": "Single-Parent Families"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b51c"
+  },
+  "gospelTopic": "Soul"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b51d"
+  },
+  "gospelTopic": "Spaulding Manuscript"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b51e"
+  },
+  "gospelTopic": "Spirit"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b51f"
+  },
+  "gospelTopic": "Spirit Children of Heavenly Parents"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b520"
+  },
+  "gospelTopic": "Spiritual Experiences"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b521"
+  },
+  "gospelTopic": "Spiritual Gifts"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b522"
+  },
+  "gospelTopic": "Spirit World"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b523"
+  },
+  "gospelTopic": "Stake"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b524"
+  },
+  "gospelTopic": "Standard Works"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b525"
+  },
+  "gospelTopic": "Stewardship"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b526"
+  },
+  "gospelTopic": "Suicide"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b527"
+  },
+  "gospelTopic": "Tattooing and Body Piercing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b528"
+  },
+  "gospelTopic": "Teacher (Aaronic Priesthood)"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b529"
+  },
+  "gospelTopic": "Teaching the Gospel"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b52a"
+  },
+  "gospelTopic": "Telestial Kingdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b52b"
+  },
+  "gospelTopic": "Temples"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b52c"
+  },
+  "gospelTopic": "Temptation"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b52d"
+  },
+  "gospelTopic": "Ten Commandments"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b52e"
+  },
+  "gospelTopic": "Terrestrial Kingdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b52f"
+  },
+  "gospelTopic": "Testimony"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b530"
+  },
+  "gospelTopic": "Tithing"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b531"
+  },
+  "gospelTopic": "Transgender"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b532"
+  },
+  "gospelTopic": "Transgression"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b533"
+  },
+  "gospelTopic": "Translation and Historicity of the Book of Abraham"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b534"
+  },
+  "gospelTopic": "Transparency about Church History"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b535"
+  },
+  "gospelTopic": "Truth"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b536"
+  },
+  "gospelTopic": "Unity"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b537"
+  },
+  "gospelTopic": "Unwed Pregnancy"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b538"
+  },
+  "gospelTopic": "Urim and Thummim"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b539"
+  },
+  "gospelTopic": "Vicarious Work"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b53a"
+  },
+  "gospelTopic": "Virtue"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b53b"
+  },
+  "gospelTopic": "War"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b53c"
+  },
+  "gospelTopic": "War in Heaven"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b53d"
+  },
+  "gospelTopic": "Witness"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b53e"
+  },
+  "gospelTopic": "Women in the Church"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b53f"
+  },
+  "gospelTopic": "Word of Wisdom"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b540"
+  },
+  "gospelTopic": "Worship"
+},
+{
+  "_id": {
+    "$oid": "68a2fdf741902ebea909b541"
+  },
+  "gospelTopic": "Zion"
+}]

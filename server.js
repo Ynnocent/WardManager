@@ -5,6 +5,7 @@ const adminRoutes = require("./routes/adminRoutes.js");
 const authRoutes = require("./routes/authRoutes.js");
 const dbConnect = require("./db/connect.js");
 
+
 // Server Config
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -18,9 +19,6 @@ app.use(
 const db = dbConnect.initDB();
 
 // Routes
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
 app.use("/admin", adminRoutes);
 app.use("/auth", authRoutes)
 

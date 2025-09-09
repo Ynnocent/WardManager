@@ -64,13 +64,13 @@ const totalByOrg = async (req, res) => {
       org: org,
     });
     res.status(200).json({
-      message: "Successfully queried total less active members",
+      message: `Successfully queried total ${org} members`,
       data: results,
     });
   } catch (error) {
     console.error(error);
     res.status(500).json({
-      message: "Failed to query total less active members",
+      message: `Failed to query total ${org} members`,
     });
   }
 }

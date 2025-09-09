@@ -7,7 +7,19 @@ const getAllUsers = async (req, res) => {
   try {
     const db = await mongoDb.getDB();
     const userCollection = await db.collection("Users");
-  } catch (error) {}
+    const results = userCollection.find();
+    results.toArray().then((list)=>{
+      return res.status(200).json({
+        message: "Successfully fetched users",
+        data: list
+      })
+    })
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      message: "Error fetching users"
+    })
+  }
 };
 
 const verifyNewUser = async (req, res) => {
